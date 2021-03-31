@@ -1,0 +1,88 @@
+Allocate space address: 0, size:10
+Free space:
+addr=10, size=90
+
+Allocate space address: 10, size:15
+Free space:
+addr=25, size=75
+
+Allocate space address: 25, size:20
+Free space:
+addr=45, size=55
+
+Allocate space address: 45, size:10
+Free space:
+addr=55, size=45
+
+Allocate space address: 55, size:25
+Free space:
+addr=80, size=20
+
+Allocate space address: 80, size:10
+Free space:
+addr=90, size=10
+
+Error: Allocation failed.
+Free space:
+addr=25, size=20
+addr=90, size=10
+
+Free space:
+addr=25, size=20
+addr=55, size=25
+addr=90, size=10
+
+Allocate space address: 90, size:5
+Free space:
+addr=25, size=20
+addr=55, size=25
+addr=95, size=5
+
+Allocate space address: 25, size:10
+Free space:
+addr=35, size=10
+addr=55, size=25
+addr=95, size=5
+
+Free space:
+addr=35, size=10
+addr=55, size=25
+addr=90, size=10
+
+Allocate space address: 35, size:5
+Free space:
+addr=40, size=5
+addr=55, size=25
+addr=90, size=10
+
+Allocate space address: 55, size:10
+Free space:
+addr=40, size=5
+addr=65, size=15
+addr=90, size=10
+
+Free space:
+addr=35, size=10
+addr=65, size=15
+addr=90, size=10
+
+Free space:
+addr=25, size=20
+addr=65, size=15
+addr=90, size=10
+
+Free space:
+addr=25, size=20
+addr=65, size=35
+
+Allocate space address: 65, size:10
+Free space:
+addr=25, size=20
+addr=75, size=25
+
+Free space:
+addr=25, size=30
+addr=75, size=25
+
+Error: Input is wrong.
+Error: Input is wrong.
